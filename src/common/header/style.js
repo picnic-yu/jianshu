@@ -45,19 +45,7 @@ export const NavItem = styled.div`
 export const SearchWrapper = styled.div`
     position: relative;
     float:left;
-    // 进场动画
-    .slide-enter{
-        transition:all .2s ease-out;
-    }
-    .slide-enter-active{
-        width:250px;
-    }
-    .slide-exit{
-        transition:all .2s ease-out;
-    }
-    .slide-exit-active{
-        width:160px;
-    }
+    
     .iconfont { 
         position: absolute;
         right:5px;
@@ -95,6 +83,19 @@ export const NavSearch = styled.input.attrs({
        width:250px;
        
    }
+    // 进场动画
+    &.slide-enter{
+        transition:all .2s ease-out;
+    }
+    &.slide-enter-active{
+        width:250px;
+    }
+    &.slide-exit{
+        transition:all .2s ease-out;
+    }
+    &.slide-exit-active{
+        width:160px;
+    }
 `;
 
 export const Addition = styled.div`
