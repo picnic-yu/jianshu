@@ -7,3 +7,6 @@
 #集成redux
 
 ####yarn add redux  yarn add react-redux
+
+
+#引入immutable 实现不可变更对象
